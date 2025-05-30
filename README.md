@@ -80,7 +80,7 @@ Open an issue or pull request:
 
 ## 🛡️ License
 
-Akaza-md is released under the **MIT License**.  
+Akaza-md is released under the **GPL License**.  
 [License File](https://github.com/alands-offc/Akaza-md/blob/main/LICENSE)
 
 ---
