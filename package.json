@@ -1,0 +1,52 @@
+{
+  "name": "AKAZA MD NEW",
+  "version": "1.0.0",
+  "description": "Customizable WhatsApp Bot",
+  "depecrated": false,
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "plugins": "plugins"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,sh"
+  },
+  "keywords": [
+    "termux-whatsapp-bot",
+    "whatsapp-bot",
+    "whatsapp",
+    "js-whatsapp"
+  ],
+  "homepage": "https://github.com/alands-offc",
+  "author": {
+    "name": "Alxzy"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "al-http-request": "^1.1.1",
+    "assert": "latest",
+    "axios": "latest",
+    "baileys": "latest",
+    "cfonts": "latest",
+    "chalk": "latest",
+    "cheerio": "latest",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.2",
+    "jimp": "latest",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "node-fetch": "latest",
+    "node-webpmux": "latest",
+    "qrcode": "^1.5.4",
+    "readline": "latest",
+    "similarity": "latest",
+    "syntax-error": "^1.4.0",
+    "yargs": "^17.0.1"
+  }
+}
