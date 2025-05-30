@@ -1,7 +1,7 @@
 # Akaza-md: Your Personal WhatsApp Bot
 
 <p align="center">
-  <img src="https://cdn.alands.xyz/files/6839464e595edbc3c978cf96?filename=images.webp" alt="Akaza-md Logo" width="200"/>
+  <img src="[https://cdn.alands.xyz/files/6839464e595edbc3c978cf96?filename=images](https://cdn.alands.xyz/files/683946b7595edbc3c978cf9a?filename=images.jpeg)." alt="Akaza-md Logo" width="200"/>
 </p>
 
 Akaza-md is a powerful and versatile WhatsApp bot built with Node.js, designed to enhance your WhatsApp experience with a wide range of features. Whether you're looking for automation, fun, or utility, Akaza-md has got you covered!
