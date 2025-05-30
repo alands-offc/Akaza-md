@@ -1,4 +1,4 @@
-# Akaza-md: Your Personal WhatsApp Bot
+# Akaza-md: Multi Device WhatsApp Bot
 
 <p align="center">
   <img src="https://cdn.alands.xyz/files/683946b7595edbc3c978cf9a?filename=images.jpeg" alt="Akaza-md Logo" width="200"/>
