@@ -136,8 +136,6 @@ let handler = async (m, { conn }) => {
 │  • Version: *1.0.0*
 │  • Site: *https://www.alxzy.xyz*
 │  • API: *baileys*
-│  • Price: *Rp 25.000*
-│  • Buy? Chat: wa.me/6283899858313
 │
 │  🛈 *Legend:*
 │     • 💎 Premium
