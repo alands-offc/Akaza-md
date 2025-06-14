@@ -3,7 +3,6 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import CFonts from "cfonts";
-import { getTotalUptime, saveStartTimeOnExit } from './lib/uptime.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 global.__dirname = __dirname;
@@ -50,15 +49,15 @@ function start(file) {
         start(file);
         break;
       case 'uptime':
-        p.send(getTotalUptime()); 
+        p.send(process.uptime()); 
         break;
     }
   });
 
   p.on('exit', code => {
     isRunning = false;
-    saveStartTimeOnExit();
     console.error('Exited with code:', code);
+    start(file)
     if (code === 0) return;
     fs.watchFile(args[0], () => {
       fs.unwatchFile(args[0]);

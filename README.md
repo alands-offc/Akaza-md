@@ -1,88 +1,119 @@
-# Akaza-md: Multi Device WhatsApp Bot
+# 💬 Akaza-md: Multi-Device Bot Whatsapp
 
 <p align="center">
-  <img src="https://cdn.alands.xyz/files/683946b7595edbc3c978cf9a?filename=images.jpeg" alt="Akaza-md Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/alands-offc/alxzydb/main/1749919242494.jpeg" alt="Akaza-md Logo" width="200"/>
 </p>
 
-**Akaza-md** is a powerful and versatile WhatsApp bot built with Node.js, designed to enhance your WhatsApp experience with a wide range of features. Whether you're looking for automation, fun, or utility, **Akaza-md** has got you covered!
+Akaza-md is a powerful and versatile WhatsApp bot built with **Node.js**, designed to enhance your WhatsApp experience with rich features for automation, fun, and productivity.
 
 ---
 
 ## 🚀 Quick Setup
 
-Get **Akaza-md** up and running in no time! Choose your preferred environment below.
-
----
-
-### 💻 For Termux/Ubuntu/SSH Users
-
-Setting up **Akaza-md** on Linux-based systems like Termux, Ubuntu, or via SSH is straightforward:
+### 📱 For Termux / Ubuntu / SSH Users
 
 ```bash
+# Update and upgrade packages
 apt update && apt upgrade -y
+
+# Install required dependencies
 apt install git nodejs ffmpeg -y
-git clone https://github.com/alands-offc/Akaza-md.git
+
+# Clone the Akaza-md repository
+git clone https://github.com/alands-offc/Akaza-md
+
+# Enter the project directory
 cd Akaza-md
+
+# Install all dependencies
 npm install
+
+# Start the bot
 npm start
 ```
 
 ---
 
-### 🪟 For Windows/VPS/RDP Users
+### 💻 For Windows / VPS / RDP Users
 
-If you're on Windows, a VPS, or an RDP, follow these steps to get **Akaza-md** running.
+#### 🧰 Prerequisites
+Make sure you have the following installed:
 
-#### Prerequisites
+- [Git](https://git-scm.com/)
+- [Node.js (LTS)](https://nodejs.org/)
+- [FFmpeg](https://ffmpeg.org/) — Add to `PATH`
+- [ImageMagick](https://imagemagick.org/) — Add to `PATH`
 
-Before you begin, make sure you have the following installed:
-
-- [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/)
-- [FFmpeg](https://ffmpeg.org/download.html) (Add to system PATH)
-- [ImageMagick](https://imagemagick.org/script/download.php)
-
-#### Installation Steps
+#### 📥 Installation Steps
 
 ```bash
-git clone https://github.com/alands-offc/Akaza-md.git
+# Clone the Akaza-md repository
+git clone https://github.com/alands-offc/Akaza-md
+
+# Enter the project directory
 cd Akaza-md
+
+# Install dependencies
 npm install
-npm update  # optional
-```
 
----
+# Optional: Update packages
+npm update
 
-### ▶️ How to Run
-
-```bash
+# Run the bot
 node .
 ```
 
 ---
 
+## ⚙️ Command-Line Arguments (Optional)
+
+You can launch Akaza-md with extra options:
+
+### `--pairing`
+
+- **Use pairing code for login**
+- Launches the bot in pairing mode, ideal for multi-device login.
+```bash
+node . --pairing
+```
+
+---
+
+### `--githubdb`
+
+- **Use GitHub as remote database**
+- Requires configuration in `config.js`:
+  - Set `githubToken`
+  - Set `namaGithub`
+  - Set `repoGithub`
+```bash
+node . --githubdb
+```
+
+> ⚠️ **Note:** This will sync your bot database to a GitHub repo.
+
+---
+
 ## 📜 Changelog
 
-Stay up-to-date with the latest features, bug fixes, and improvements!  
-👉 [View Changelog](https://github.com/alands-offc/Akaza-md/blob/main/CHANGELOG.md)
+Stay up-to-date with the latest features, fixes, and updates:
+👉 [GitHub Releases](https://github.com/alands-offc/Akaza-md/releases)
 
 ---
 
 ## 🙏 Contributing
 
-We welcome contributions!  
-Open an issue or pull request:
-
-- [Issues](https://github.com/alands-offc/Akaza-md/issues)
-- [Pull Requests](https://github.com/alands-offc/Akaza-md/pulls)
+We welcome contributions of all kinds!  
+📥 Submit issues or pull requests via [GitHub Issues](https://github.com/alands-offc/Akaza-md/issues)
 
 ---
 
 ## 🛡️ License
 
-Akaza-md is released under the **GPL License**.  
-[License File](https://github.com/alands-offc/Akaza-md/blob/main/LICENSE)
+Akaza-md is released under the **MIT License**.
 
 ---
 
-> Happy chatting with Akaza-md! 🎉
+## 🤖 Created With ❤️ by [Alxzy](https://www.alxzy.xyz)
+
+Happy chatting with **Akaza-md**!
