@@ -6,5 +6,5 @@ let handler = async (m, { conn }) => {
 }
 handler.command = ["unbanchat", "ubnc"]
 handler.tags = ["owner"]
-handler.owmer = true;
+handler.owner = true;
 export default handler
