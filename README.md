@@ -90,7 +90,7 @@ node . --pairing
 node . --githubdb
 ```
 
-> ⚠️ **Note:** This will sync your bot database to a GitHub repo.
+> ⚠️ **Note:** This will sync your bot database to a GitHub repo and this is EXPERIMENTAL.
 
 ---
 
